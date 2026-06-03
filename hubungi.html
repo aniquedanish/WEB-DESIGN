@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kedai Barang Antik</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">Kedai Barang Antik</div>
+
+    <div class="nav">
+      <a href="index.html">Laman Utama</a> |
+      <a href="butiran.html">Maklumat Butiran</a> |
+      <a href="hubungi.html">Hubungi Kami</a>
+    </div>
+
+    <div class="content">
+      <div class="tajuk-produk">HUBUNGI KAMI</div>
+
+      <form
+        onsubmit="
+          event.preventDefault();
+          alert('Mesej anda telah dihantar!');
+        "
+      >
+        <div class="form-group">
+          <label>Nama:</label>
+          <input type="text" required />
+        </div>
+        <div class="form-group">
+          <label>Emel:</label>
+          <input type="email" required />
+        </div>
+        <div class="form-group">
+          <label>Mesej:</label>
+          <textarea rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn-hantar">[Hantar]</button>
+      </form>
+    </div>
+
+    <div class="footer">
+      <div>Copyright 2026 Kedai Barang Antik</div>
+      <div class="media-sosial">Media Sosial : Barang@antik</div>
+    </div>
+  </body>
+</html>

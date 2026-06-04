@@ -3,39 +3,66 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kedai Barang Antik</title>
+    <title>Website Biodata</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <div class="header">Kedai Barang Antik</div>
 
-    <div class="nav">
-      <a href="index.html">Laman Utama</a> |
-      <a href="butiran.html">Maklumat Butiran</a> |
-      <a href="hubungi.html">Hubungi Kami</a>
-    </div>
-
-    <div class="content">
-      <div class="tajuk-produk">JAM ANTIK</div>
-
-      <div class="main-layout">
-        <div class="gambar-box">
-          <img src="image/jamantik.jpeg" alt="Jam Antik Klasik" />
+  <body class="body">
+    <div class="wrapper">
+      <header class="header">
+        <div class="logo">
+          <img src="image/logo.png" alt="Logo" class="logo-img" />
         </div>
-
-        <div class="butiran">
-          <div><strong>Nama:</strong> Jam Antik Klasik</div>
-          <div class="harga"><strong>Harga:</strong> RM 2500</div>
-          <div>
-            <strong>Keterangan:</strong> Jam ini telah wujud sejak tahun 1950.
+        <div>Hi Pudin</div>
+      </header>
+      <main class="grid">
+        <section class="card center">
+          <div class="stack">
+            <div class="layer back">
+              <img
+                src="image/background.jpeg"
+                alt="Background"
+                class="profile-img"
+              />
+            </div>
+            <div class="layer front">
+              <img src="image/profile.jpeg" alt="Profile" class="profile-img" />
+            </div>
           </div>
-        </div>
-      </div>
-    </div>
+        </section>
 
-    <div class="footer">
-      <div>Copyright 2026 Kedai Barang Antik</div>
-      <div class="media-sosial">Media Sosial : Barang@antik</div>
+        <section class="card spacing">
+          <h2>BIODATA</h2>
+
+          <div class="row">
+            <span>&#128104;</span>
+            <div><strong>Nama:</strong> Pudin</div>
+          </div>
+          <div class="row">
+            <span>&#128222;</span>
+            <div><strong>No Tel:</strong> +60 12-345 6789</div>
+          </div>
+          <div class="row">
+            <span>&#127968;</span>
+            <div><strong>Alamat:</strong>Kuala Lumpur, Malaysia</div>
+          </div>
+        </section>
+
+        <section class="card spacing">
+          <h2>NOTA</h2>
+
+          <ul>
+            <li><a href="#" class="custom-link">hyperlink</a></li>
+            <li><a href="#" class="custom-link">hyperlink</a></li>
+          </ul>
+        </section>
+      </main>
     </div>
   </body>
 </html>
